@@ -1,0 +1,131 @@
+body {
+    background-color: #F0EDCF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info h1 {
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+.info p {
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.profile-pic img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.company-image img {
+    height: 100px;
+}
+
+.hero {
+    position: relative;
+    background-color: #40A2D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    height: 50rem;
+}
+
+.info {
+    height: 100%;
+    width: auto;
+    border-radius: 10%;
+    font-size: 200%;
+    font-stretch: expanded;
+}
+
+.hello {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.presentation {
+    align-self: center;
+}
+
+.profile-pic {
+    justify-self: center;
+}
+
+.resume {
+    margin: 40px;
+}
+
+.company {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.enroute {
+    margin-top: 40px;
+}
+
+.company-image {
+    justify-self: center;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.boxes {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: #000000;
+    color: #F0EDCF;
+    width: 50%;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+.footer {
+    display: flex;
+    gap: 5%;
+    background-color: #40A2D8;
+    margin-bottom: 0%;
+    padding: 40px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 0%;
+}
+
+@media (max-width: 650px) {
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 10%;
+    }
+    
+    .box {
+        background-color: #000000;
+        color: #F0EDCF;
+        width: 50%;
+        padding: 5%;
+        border-radius: 5%;
+    }
+    .qa {
+        margin-bottom: 10%;
+    }
+}
